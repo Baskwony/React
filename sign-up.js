@@ -76,6 +76,14 @@ const Form = ({ handleClose }) => {
         <Button type="submit" variant="contained" onClick={handleClose} color="primary">
           Signup
         </Button>
+        <input
+          type="checkbox"
+          id="text"
+          value=" Terms and conditions"
+          checked={isChecked}
+          onChange={handleOnChange}
+        />
+        I have read and agreed to the terms and conditions
       </div>
     </form>
   );
