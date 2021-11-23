@@ -82,3 +82,4 @@ const Form = ({ handleClose }) => {
     </form>
   );
 };
+ReactDOM.render(<MyForm />, document.getElementById('root'));
