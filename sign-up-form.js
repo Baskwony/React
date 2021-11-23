@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import ReactDOM from "react-dom";
 import { makeStyles } from '@material-ui/core';
 import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
@@ -38,7 +39,7 @@ const Form = ({ handleClose }) => {
     <>
     <h1>Create An account</h1>
       <p>Already have an Account? Sign In .</p>
-    </>
+    
       
     <form className={classes.root} onSubmit={handleSubmit}>
       <TextField
