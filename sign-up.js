@@ -88,4 +88,4 @@ const Form = ({ handleClose }) => {
     </form>
   );
 };
-ReactDOM.render(<form />, document.getElementById('root'));
+export default SignupForm;
