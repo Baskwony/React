@@ -36,6 +36,9 @@ const Form = ({ handleClose }) => {
 
   return (
     <>
+    <h1>Create An account</h1>
+      <p>Already have an Account? Sign In .</p>
+    </>
       
     <form className={classes.root} onSubmit={handleSubmit}>
       <TextField
