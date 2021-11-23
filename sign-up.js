@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import ReactDOM from 'react-dom';
 import { makeStyles } from '@material-ui/core';
 import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
@@ -79,4 +80,4 @@ const Form = ({ handleClose }) => {
     </form>
   );
 };
-export default Form;
+ReactDOM.render(<form />, document.getElementById('root'));
